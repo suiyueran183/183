@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+				*{margin: 0; padding: 0; font-family: "微软雅黑";}
+				div.box{ width:600px; height:auto; margin: 50px auto;
+				padding: 20px; border:1px solid deepskyblue}
+				h1{ text-align: center; color:dodgerblue; margin-bottom: 20px;}
+				table{ width:600px; margin: 0 auto; line-height: 40px;}
+				span{ color:red;}
+				.btn{ width:50px; height:30px; background: royalblue; color:white;
+				border-radius: 5px; border:1px solid yellow;}
+				
+			</style>
+	</head>
+	<body>
+		<div class="box">
+			<h1>用户信息注册</h1>
+			<form>
+				<table>
+					<tr>
+						<td>姓名<span>*</span>: </td>
+						<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>手机<span>*</span>: </td>
+							<td><input type="tel"></td>
+						</tr>
+						<tr>
+							<td>性别<span>*</span>: </td>
+							<td>
+								<input type="radio" name="sex">男
+								<input type="radio" name="sex">女
+							</td>
+						</tr>
+						<tr>
+							<td>邮箱<span>*</span>: </td>
+							<td><input type="email"></td>
+							</tr>
+							<tr>
+								<td>职业<span>*</span>: </td>
+								<td>
+									<select class="course">
+										<option>教师</option>
+										<option selected="selected">公司员工</option>
+										<option>工程师</option>
+										<option>自由职业者</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>爱好: </td>
+								<td>
+									<input type="checkbox">音乐
+									<input type="checkbox">旅行
+									<input type="checkbox">阅读
+									<input type="checkbox">运动
+								</td>
+							</tr>
+							<tr>
+								<td>简介: </td>
+								<td>
+									<textarea cols="50" rows="5" class="message">
+请输入你的简历
+									</textarea>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="submit" value="提交" class="btn">
+									<input type="reset" value="取消" class="btn">
+								</td>
+							</tr>
+						</table>
+					</form>
+		</div>
+		
+	</body>
+</html>
